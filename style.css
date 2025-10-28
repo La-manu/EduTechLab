@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Changa+One:ital@0;1&family=Jersey+10&family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Send+Flowers&family=Signika:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amatic+SC:wght@400;700&family=Bungee&family=DynaPuff:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Playwrite+DE+SAS:wght@100..400&family=Playwrite+US+Modern:wght@100..400&family=Rock+Salt&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+              url('/img/fundo.jpg') no-repeat center/cover;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #713D8F;
+  box-sizing: border-box;
+  justify-content: space-between; 
+  gap: 700px;
+    z-index: 2; 
+    position: relative;
+}
+nav {
+  flex: 1;
+  justify-content: right;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  width: 100%; 
+}
+nav ul li {
+  display: inline-block; 
+}
+
+nav ul li a {
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  transition: all 0.2s;
+}
+nav ul li a:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+  color: rgb(174, 135, 194);
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    font-family: 'Aclonica', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.656);
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.btn {
+  background-color: #af8cc5;
+  color: #49155e;
+  padding: 15px 30px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'DynaPuff' , sans-serif;
+  font-weight: 300;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: rgb(123, 80, 148) 4px solid;
+  margin-top: 30px;
+  transition: all 0.2s;
+  display: inline-block;
+}
+.particulas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at 5% 25%, rgb(49, 16, 102), transparent 25%),
+              radial-gradient(circle at 92% 90%, rgb(49, 16, 102), transparent 25%);
+  opacity: 0.6;
+  z-index: 1;         
+  pointer-events: none;  
+}
+
+.hero {
+  position: relative;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.btn:hover {
+    transform: scale(1.2) !important;
+    display: inline-block;
+    
+}
+
+footer {
+    background-color: #463351;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    z-index: 2;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
+footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.info {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+        gap: 50px;
+        z-index: 2;
+        position: relative;
+}
+
+.box1 {
+    background-color: #47215da5;
+    color: #ffffff;
+    width: 400px;
+    height: 200px;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.689);
+    padding: 10px 0px 10px 0px;
+}
+
+.box1 h2 {
+    font-size: 15px;
+    font-family: Caprasimo;
+    font-weight: 100;
+}
+
+.box1 p {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.info img {
+  width: 60px;
+
+}
+
+@media (max-width: 768px) {
+    /* HEADER E NAVEGAÇÃO */
+    header {
+        flex-direction: column; /* Coloca logo e nav um abaixo do outro */
+        padding: 15px 10px;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column; /* Itens do menu em coluna */
+        align-items: center;
+        gap: 5px; /* Espaçamento entre os links */
+    }
+
+    nav ul li a {
+        font-size: 18px; /* Reduz o tamanho da fonte do menu */
+        padding: 5px 0;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    /* CONTEÚDO PRINCIPAL (HERO) */
+    .hero {
+        height: auto; /* Altura automática */
+        min-height: 70vh; /* Altura mínima para manter o impacto */
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    /* CAIXAS DE INFORMAÇÃO */
+    .info {
+        padding: 30px 10px;
+        gap: 20px; /* Ajuste o gap entre os blocos */
+    }
+
+    .box1 {
+        width: 90%; /* Ocupa quase toda a largura da tela */
+        max-width: 90%; /* Garante que não ultrapasse */
+        min-height: 200px;
+        padding: 15px;
+    }
+
+    .box1 h2 {
+        font-size: 18px;
+    }
+
+    .box1 p {
+        font-size: 14px;
+    }
+}
+
+/* Para telas médias (tablets, entre 768px e 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        /* Ajusta o espaçamento para caber melhor na linha */
+        justify-content: space-around; 
+    }
+    
+    nav ul li a {
+        font-size: 20px; /* Um pouco menor */
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .info {
+        padding: 40px 15px;
+        gap: 20px;
+    }
+
+    .box1 {
+        width: 30%; /* Três colunas com folga */
+        min-height: 220px;
+    }
+}
