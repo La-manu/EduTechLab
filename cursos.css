@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Changa+One:ital@0;1&family=Jersey+10&family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&family=Send+Flowers&family=Signika:wght@300..700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amatic+SC:wght@400;700&family=Bungee&family=DynaPuff:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Playwrite+DE+SAS:wght@100..400&family=Playwrite+US+Modern:wght@100..400&family=Rock+Salt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Amatic+SC:wght@400;700&family=Bungee&family=DynaPuff:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Playwrite+DE+SAS:wght@100..400&family=Playwrite+US+Modern:wght@100..400&family=Rock+Salt&display=swap");
 
 body {
   margin: 0;
@@ -9,7 +9,6 @@ body {
   background-image: url("https://i.pinimg.com/736x/2a/84/f2/2a84f24812024cc76fa3010d920b2a20.jpg");
   overflow-x: hidden;
   background-size: 1520px;
-
 }
 
 html {
@@ -21,7 +20,7 @@ header {
   align-items: center;
   padding: 10px 20px;
   width: 100%;
-  background-color: #713D8F;
+  background-color: #713d8f;
   box-sizing: border-box;
   justify-content: space-between; /* This is the key line to add */
   gap: 700px;
@@ -41,7 +40,6 @@ nav ul {
 }
 nav ul li {
   display: inline-block; /* garante que o li fique em linha */
-
 }
 nav ul li a {
   font-size: 25px;
@@ -74,40 +72,40 @@ nav ul li a:hover {
 }
 
 .imagem {
-    width: 100%; 
-    height: 150px; 
-    overflow: hidden; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    margin: 10px auto; 
-    display: block; 
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin: 10px auto;
+  display: block;
 }
 
 .imagem img {
-    width: 100%;
-    height: 100%; 
-    object-fit: cover; 
-    border-radius: 10px;
-    box-shadow: none;
-    transition: transform 0.3s ease;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: none;
+  transition: transform 0.3s ease;
+  display: block;
 }
 
 .imagem img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .box {
-    width: 300px;       
-    height: 350px;            
-    margin: 5px auto;
-    background-color: rgb(255, 255, 255);     
-    color: rgb(0, 0, 0);    
-    border-radius: 10px;            
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);              
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
+  width: 90%;
+  max-width: 310px;
+  margin: 5px auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .box h1 {
@@ -126,15 +124,14 @@ nav ul li a:hover {
 }
 
 .cursos {
-  background-color: rgb(121, 95, 149); 
-  padding: 20px 20px 60px 20px; 
-  width: 100%; 
+  background-color: rgb(121, 95, 149);
+  padding: 20px 20px 60px 20px;
+  width: 100%;
   box-sizing: border-box;
-  margin-top: 0; 
+  margin-top: 0;
   border-radius: 0;
   box-shadow: none;
   border-radius: 2%;
-
 }
 
 .cursos {
@@ -144,8 +141,8 @@ nav ul li a:hover {
 }
 
 .título {
-  background-color: transparent; 
-  width: max-content; 
+  background-color: transparent;
+  width: max-content;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
@@ -156,7 +153,7 @@ nav ul li a:hover {
 
 .título h1 {
   margin-top: 80px;
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
   font-size: 68px;
   font-family: "Aclonica", sans-serif;
   color: #602a8c;
@@ -166,19 +163,18 @@ nav ul li a:hover {
   text-shadow: #ffffff 2px 2px 4px;
 }
 
-
 /* 1. Aplica Flexbox para alinhamento horizontal */
 .detalhes-curso {
-    display: flex;
-    align-items: center; 
-    gap: 10px; 
-    margin-bottom: 10px; 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
 /* 2. Ajuste o estilo do texto de duração */
 .duracao {
-    font-size: 15px;
-  background-color:#ccaae1;
+  font-size: 15px;
+  background-color: #ccaae1;
   color: #ffffff;
   border-radius: 5px;
   width: max-content;
@@ -190,7 +186,7 @@ nav ul li a:hover {
 
 /* 3. Ajuste o estilo do "Online" */
 .online {
-    font-size: 15px;
+  font-size: 15px;
   background-color: #7c5990;
   color: #ffffff;
   border-radius: 5px;
@@ -207,20 +203,20 @@ nav ul li a:hover {
 }
 
 .box button[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #ffffff;
-    color: #533267;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #533267;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 .box button[type="submit"]:hover {
-    background-color: #9a7cab;
+  background-color: #9a7cab;
 }
 
 .certificado {
@@ -234,7 +230,6 @@ nav ul li a:hover {
   margin-bottom: 100px;
   align-items: center;
   padding: 15px;
-
 }
 
 .certificado h2 {
@@ -252,27 +247,26 @@ nav ul li a:hover {
 }
 
 .imagem-certificado img {
-    width: auto;
-    height: 310px; 
-    object-fit: cover; 
-    border-radius: 10px;
-    box-shadow: none;
-    transition: transform 0.3s ease;
-    display: block;
-    overflow: hidden; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    margin: 10px auto; 
-    display: block;
-    aspect-ratio: 3 / 2;  
-    object-fit: cover;  
-    
+  width: auto;
+  height: 310px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: none;
+  transition: transform 0.3s ease;
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin: 10px auto;
+  display: block;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
 }
 .texto-certificado img {
-    width: 110px;
-    height: auto;
-    padding: 10px;
-    display: block;
+  width: 110px;
+  height: auto;
+  padding: 10px;
+  display: block;
 }
 
 .texto-certificado {
@@ -280,8 +274,6 @@ nav ul li a:hover {
   margin: 0px 5px 0px 10px;
   text-align: left;
   align-items: start;
-
-
 }
 
 .carousel input[type="radio"] {
@@ -444,23 +436,22 @@ nav ul li a:hover {
   align-items: center;
   margin: auto auto;
   gap: 20px;
-
 }
 footer {
-    background-color: #463351;
-    padding: 10px 0;
-    width: 100%;
-    position: relative;
-    bottom: 0;
-    z-index: 2;
+  background-color: #463351;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  z-index: 2;
 }
 
 footer p {
-    margin: 0;
-    font-size: 16px;
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .cursos h6 {
@@ -471,7 +462,7 @@ footer p {
   background-color: #e3d1ef;
   padding: 3px 20px 3px 20px;
   border-radius: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   transition: all 0.2s;
   cursor: pointer;
   display: flex;
@@ -482,4 +473,301 @@ footer p {
 .cursos h6:hover {
   background-color: #9a7cab;
   transform: scale(1.05);
+}
+
+@media (max-width: 1200px) {
+  /* certificado empilha e reduz largura do carrossel */
+  .certificado {
+    width: 95%;
+    max-width: 900px;
+    height: auto;
+    flex-direction: row;
+    gap: 10px;
+    padding: 12px;
+  }
+  .imagem-certificado img {
+    height: 260px;
+    width: auto;
+  }
+  .carousel {
+    width: 60%;
+    max-width: 520px;
+  }
+}
+
+/* Medium screens */
+@media (max-width: 992px) {
+  header {
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+  nav {
+    order: 2;
+  }
+  .logo {
+    order: 1;
+  }
+  nav ul {
+    justify-content: center;
+  }
+  .certificado {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagem-certificado img {
+    height: 240px;
+  }
+  .carousel {
+    width: 70%;
+  }
+  .título {
+    height: auto;
+  }
+}
+
+/* Tablet / Small laptops */
+@media (max-width: 768px) {
+  /* header/menu */
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    gap: 8px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px 0;
+  }
+  nav ul li {
+    flex: 1 0 auto;
+    text-align: center;
+  }
+  nav ul li a {
+    font-size: 16px;
+    padding: 6px 4px;
+  }
+
+  /* título */
+  .título {
+    width: 100%;
+    padding: 20px 10px;
+    height: auto;
+  }
+  .título h1 {
+    font-size: 34px;
+    margin-top: 24px;
+  }
+
+  /* certificado + carrossel empilados e centralizados */
+  .info {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .certificado {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+  }
+  .texto-certificado,
+  .imagem-certificado {
+    width: 100%;
+    text-align: center;
+  }
+  .imagem-certificado img {
+    width: 100%;
+    height: auto;
+    max-height: 260px;
+    object-fit: cover;
+  }
+  .carousel {
+    width: 90%;
+    max-width: 560px;
+    height: auto;
+  }
+  .slide {
+    height: 240px;
+  }
+
+  /* boxes: full width stacked */
+  .sobre-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .box {
+    width: 95% !important;
+    max-width: 720px !important;
+    margin: 8px 0 !important;
+    box-sizing: border-box;
+  }
+  .imagem {
+    height: 160px;
+  }
+  .box h1 {
+    font-size: 18px;
+  }
+  .box p {
+    font-size: 15px;
+  }
+  .detalhes-curso {
+    gap: 8px;
+  }
+
+  /* botões e textos */
+  .box button[type="submit"] {
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  /* header -> empilha, menu em coluna */
+  header {
+    padding: 8px;
+    gap: 6px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 6px;
+  }
+  nav ul li a {
+    font-size: 15px;
+    padding: 8px 6px;
+  }
+
+  /* título */
+  .título h1 {
+    font-size: 28px;
+    margin-top: 18px;
+  }
+
+  /* certificado e carrossel */
+  .certificado {
+    width: 96%;
+    padding: 10px;
+  }
+  .imagem-certificado img {
+    max-height: 200px;
+  }
+  .carousel {
+    width: 96%;
+  }
+  .slide {
+    height: 180px;
+  }
+
+  /* boxes compactos */
+  .box {
+    width: 100% !important;
+    padding: 12px;
+    margin: 6px 0 !important;
+  }
+  .imagem {
+    height: 120px;
+  }
+  .box h1 {
+    font-size: 16px;
+  }
+  .box p {
+    font-size: 14px;
+  }
+
+  /* reduzir sombras/efeitos para performance */
+  .box,
+  .carousel,
+  .certificado {
+    box-shadow: none;
+  }
+  footer p {
+    font-size: 13px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+  nav ul li a {
+    font-size: 14px;
+  }
+  .título h1 {
+    font-size: 24px;
+  }
+  .slide {
+    height: 160px;
+  }
+  .imagem {
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    padding: 15px 20px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  h2,
+  h3,
+  h4 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .box1 {
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 15px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .mec-section {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .mec-section img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .mec-section h2 {
+    font-size: 22px;
+    line-height: 1.3;
+    margin: 15px 0;
+  }
+
+  .mec-section p {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 0 10px;
+  }
+
+  .mec-certificate {
+    width: 100%;
+    max-width: 380px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 15px;
+  }
 }

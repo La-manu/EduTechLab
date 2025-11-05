@@ -189,6 +189,7 @@ footer p {
     header {
         flex-direction: column; /* Coloca logo e nav um abaixo do outro */
         padding: 15px 10px;
+        gap: 0px;
     }
 
     nav {
